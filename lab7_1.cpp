@@ -14,36 +14,29 @@ int main()
   //   case 'C': cout << "You have received 2000 coins.\n";
   //   case 'D': cout << "You have received very KAK items.\n";
   // }
+    if (rank=='S')
+    {
+        rank='A'-1;
+    }
+    
 
-
-  if (rank=='S')
+  if (rank <= 'A'-1)
   {
     cout << "You have received Super Ultra Rare Unit!!!\n";
-    cout << "You have received 5 gems.\n";
-    cout << "You have received 1 gems.\n";
-    cout << "You have received 2000 coins.\n";
-    cout << "You have received very KAK items.\n";
-    
   }
-  if (rank=='A')
+  if (rank <= 'A')
   {
     cout << "You have received 5 gems.\n";
-    cout << "You have received 1 gems.\n";
-    cout << "You have received 2000 coins.\n";
-    cout << "You have received very KAK items.\n";
   }
-  if (rank=='B')
+  if (rank <= 'B')
   {
     cout << "You have received 1 gems.\n";
-    cout << "You have received 2000 coins.\n";
-    cout << "You have received very KAK items.\n";
   }
-  if (rank=='C')
+  if (rank <= 'C')
   {
     cout << "You have received 2000 coins.\n";
-    cout << "You have received very KAK items.\n";
   }
-  if (rank=='D')
+  if (rank <= 'D')
   {
     cout << "You have received very KAK items.\n";
   }
